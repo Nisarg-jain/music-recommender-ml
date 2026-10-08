@@ -1,9 +1,16 @@
 # Music Genre Recommender (Decision Tree Classifier)
 
-An introductory supervised machine learning project demonstrating dataset ingestion, feature engineering, model training, and categorical prediction using Python, Pandas, and Scikit-Learn.
+An end-to-end supervised machine learning pipeline using Python, Pandas, and Scikit-Learn that predicts music preferences based on demographic attributes (age and gender).
+
+## Workflow Highlights
+1. **Data Ingestion & Preprocessing:** Loaded structured demographic data using `pandas` and separated feature matrix ($X$) from target vector ($y$).
+2. **Model Training:** Fitted a `DecisionTreeClassifier` from `sklearn.tree`.
+3. **Performance Evaluation:** Evaluated accuracy using `train_test_split` and `accuracy_score`.
+4. **Model Persistence:** Serialized and deserialized the trained model artifact using `joblib`.
 
 ## Tech Stack
-- Python 3
-- Pandas (Data manipulation and inspection)
-- Scikit-Learn (Decision Tree classification)
-- Jupyter Notebook / VS Code
+- Python
+- Pandas
+- Scikit-Learn
+- Joblib
+- Jupyter Notebook
